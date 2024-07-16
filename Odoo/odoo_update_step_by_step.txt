@@ -1,0 +1,59 @@
+TẮT DỊCH VỤ PILOT
+	- sudo systemctl status odopilot
+	- sudo systemctl stop odopilot
+	- sudo systemctl status odopilot
+
+SAO LƯU
+	- Xoá bản sao lưu hiện có ở /home/odopilot/backup
+	  rm /home/odopilot/backup/*
+	- Sao lưu
+	  cd /home/odopilot/backup/
+
+	  tar -czf odopilot-web.tgz /opt/odopilot/
+	  
+	  tar -czf odopilot-file.tgz /ododata/odopilot/filestore/
+	  
+	  pg_dump odopilot -U odopilot -W -f odopilot.sql
+	  tar -czf odopilot-db.tgz odopilot.sql
+	  rm odopilot.sql
+
+	  ls -lh
+
+XOÁ LOG
+	- rm /var/log/odopilot/odoo-pilot.log
+
+XOÁ MODULE CẦN NÂNG CẤP
+	- cd /opt/odopilot/addons-others
+	  rm -rf <module_1> <module_2> ... <module_n>
+
+	- cd /opt/odopilot/addons-th
+	  rm -rf <module_1> <module_2> ... <module_n>
+
+CHÉP MODULE CẦN NÂNG CẤP
+	- cd /opt/odopilot/addons-others
+	  cp -r /opt/odouat/addons-others/<<module_1/ /opt/odopilot/addons-others/
+	  cp -r /opt/odouat/addons-others/<<module_2/ /opt/odopilot/addons-others/
+	  cp -r /opt/odouat/addons-others/<<module_n/ /opt/odopilot/addons-others/
+
+	  ls -lrt
+
+	- cd /opt/odopilot/addons-th
+	  cp -r /opt/odouat/addons-th/<<module_1/ /opt/odopilot/addons-th/
+	  cp -r /opt/odouat/addons-th/<<module_2/ /opt/odopilot/addons-th/
+	  cp -r /opt/odouat/addons-th/<<module_n/ /opt/odopilot/addons-th/
+
+	  ls -lrt
+
+CÀI ĐẶT / CẬP NHẬT MODULE CẦN NÂNG CẤP
+	- cd /opt/odopilot/
+	- odoo-server/odoo-bin -c odopilot.conf -d odopilot -i <module_1> -u <module_2>,<module_3>,<module_n> --stop-after-init 
+
+XEM LOG
+	- /var/log/odopilot/odoo-pilot.log
+
+KHỞI ĐỘNG DỊCH VỤ PILOT
+	- sudo systemctl start odopilot
+	- sudo systemctl status odopilot
+
+KIÊM TRA
+	- https://sampilot.eln.vn
