@@ -50,7 +50,8 @@ CÀI ĐẶT / CẬP NHẬT MODULE CẦN NÂNG CẤP
 
 XEM LOG
 	- /var/log/odopilot/odoo-pilot.log
-
+COPY LOG
+	- /var/log/odopilot/odoo-pilot.log
 KHỞI ĐỘNG DỊCH VỤ PILOT
 	- sudo systemctl start odopilot
 	- sudo systemctl status odopilot
