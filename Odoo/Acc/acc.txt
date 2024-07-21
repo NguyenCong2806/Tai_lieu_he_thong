@@ -1,0 +1,12 @@
+- IP: 45.117.81.205
+- SSH Port: 22
+- OS account: odopilot / 7V17]OUSL$c7r'M#fqb>A4[&'^3F&#^p
+ 
+- PostgreSQL account: odopilot / j0#M8lsEGlejYsoc
+- PostgreSQL port: 5432
+ 
+- Pilot Code: /opt/odopilot/
+- Pilot File: /ododata/odopilot/
+- Pilot Logs: /var/log/odopilot/
+ 
+- UAT Code: /opt/odouat/
