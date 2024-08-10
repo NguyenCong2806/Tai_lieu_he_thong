@@ -1,0 +1,13 @@
+===== B2B UAT =====
+IP: 45.117.81.205
+URL: https://b2b-uat.eln.vn
+
+OS Account: b2buat / e[ZHBdREs{N%8y4Q
+
+Odoo B2B UAT source: /opt/b2buat/
+Oodo B2B UAT files: /ododata/b2buat/
+Odoo B2B UAT log: /var/log/b2buat/
+
+PostgreSQL
+  B2B UAT dbname: b2buat
+  B2B UAT account: b2buat / Ej@pD7JctfuSsvM(
