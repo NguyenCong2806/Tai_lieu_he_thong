@@ -1,0 +1,42 @@
+TẮT DỊCH VỤ B2C UAT
+	- sudo systemctl status b2buat
+	- sudo systemctl stop b2buat
+	- sudo systemctl status b2buat
+
+SAO LƯU
+	- Xoá bản sao lưu hiện có ở /home/b2buat/backup
+	  rm /home/b2buat/backup/*
+	- Sao lưu
+	  cd /home/b2buat/backup/
+
+	  tar -czf b2buat-web.tgz /opt/b2buat/
+	  
+	  tar -czf b2buat-file.tgz /ododata/b2buat/filestore/
+	  
+	  pg_dump b2buat -U b2buat -W -f b2buat.sql
+	  tar -czf b2buat-db.tgz b2buat.sql
+	  rm b2buat.sql
+
+	  ls -lh
+
+XOÁ LOG
+	- rm /var/log/b2buat/odoo-b2buat.log
+	
+PULL CODE MỚI NHẤT TỪ GIT VỀ TRÊN NHÁNH PRODUCTION VÀ UP CODE LÊN THƯ MỤC /opt/b2buat/
+	- Module bắt đầu bằng "th_", copy vào thư mục addons-th
+	- Module không bắt đầu bằng "th_", copy vào thư mục addons-others
+
+CÀI ĐẶT / CẬP NHẬT MODULE CẦN NÂNG CẤP
+	- cd /opt/b2buat/
+	- odoo-server/odoo-bin -c odoo.conf -d b2buat -i <module_1> -u <module_2>,<module_3>,<module_n> --stop-after-init 
+
+XEM LOG
+	- /var/log/b2buat/odoo-b2buat.log
+COPY LOG
+	- /var/log/b2buat/odoo-b2buat.log
+KHỞI ĐỘNG DỊCH VỤ PILOT
+	- sudo systemctl start b2buat
+	- sudo systemctl status b2buat
+
+KIÊM TRA
+	- https://b2b-uat.eln.vn
