@@ -1,13 +1,13 @@
-Thông tin của dự án: ===== B2C UAT =====
+===== B2C UAT =====
 IP: 45.117.81.205
 URL: https://b2c-uat.eln.vn
 
-Account: b2cuat / J?geP2~64+VUs[7c
- 
+Account: b2cuat / Lv:d_8A&a$=3D6(+
+
 Odoo B2C UAT source: /opt/b2cuat/
 Oodo B2C UAT files: /ododata/b2cuat/
 Odoo B2C UAT log: /var/log/b2cuat/
 
 PostgreSQL
   B2C UAT dbname: b2cuat
-  B2C UAT account: b2cuat / yNq4h%r/gFRUBm>L
+  B2C UAT account: b2cuat / f3W5v]FS{/_T4E:L
