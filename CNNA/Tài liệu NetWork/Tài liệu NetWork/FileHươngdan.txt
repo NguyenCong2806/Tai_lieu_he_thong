@@ -1,0 +1,28 @@
+1. Hệ điều hành: Hiểu về các hệ điều hành phổ biến như Windows, Linux hoặc Unix. 
+Nắm vững các khái niệm cơ bản về quản lý người dùng, quản lý tệp tin, mạng và bảo mật.
+
+2. Mạng máy tính: Hiểu về kiến thức cơ bản về mạng như giao thức TCP/IP, DHCP, DNS, VPN,
+ Firewall và các khái niệm mạng máy tính khác. Có kiến thức về mạng LAN, WAN và các phương pháp kết nối mạng.
+
+3. Ứng dụng và dịch vụ mạng: Hiểu về cách triển khai, cấu hình và quản lý các ứng dụng và 
+dịch vụ mạng như máy chủ web, máy chủ email, máy chủ cơ sở dữ liệu, DNS, FTP và các dịch vụ khác.
+
+4. Virtualization (ảo hóa): Hiểu về các công nghệ ảo hóa như VMware hoặc Hyper-V để triển khai 
+và quản lý các máy ảo, điều phối tài nguyên và quản lý môi trường ảo.
+
+5. Bảo mật hệ thống: Hiểu về các phương pháp bảo mật hệ thống, bao gồm cả bảo mật mạng, 
+bảo mật ứng dụng và bảo mật dữ liệu. Nắm vững các khái niệm về quản lý danh tính, kiểm soát truy cập và mã hóa dữ liệu.
+
+6. Quản lý cơ sở hạ tầng: Hiểu về cơ sở hạ tầng công nghệ thông tin, bao gồm phân phối điện, 
+làm mát, hệ thống lưu trữ và mạng. Nắm vững các khái niệm về quản lý tài nguyên, giám sát hệ thống và dự phòng sự cố.
+
+7. Kỹ năng gỡ lỗi: Phát triển kỹ năng gỡ lỗi để phân tích và khắc phục sự cố hệ thống. 
+Hiểu về các công cụ và phương pháp gỡ lỗi như log files, debuggers, và các lệnh hệ thống.
+
+8. Kỹ năng lập kế hoạch và quản lý: Có khả năng
+
+ lập kế hoạch triển khai, nâng cấp và duy trì hệ thống. H
+iểu về quản lý dự án, quản lý thay đổi và quản lý rủi ro.
+
+9. Kỹ năng giao tiếp: Có khả năng giao tiếp hiệu quả với đồng nghiệp và người dùng cuối. 
+Kỹ năng giao tiếp tốt giúp bạn hiểu và giải quyết các vấn đề hệ thống một cách hiệu quả.
