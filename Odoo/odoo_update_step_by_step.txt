@@ -3,6 +3,9 @@ TẮT DỊCH VỤ PILOT
 	- sudo systemctl stop odopilot
 	- sudo systemctl status odopilot
 
+sudo systemctl restart odopilot
+
+
 SAO LƯU
 	- Xoá bản sao lưu hiện có ở /home/odopilot/backup
 	  rm /home/odopilot/backup/*

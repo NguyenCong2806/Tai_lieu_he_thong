@@ -3,6 +3,7 @@ TẮT DỊCH VỤ B2C UAT
 	- sudo systemctl stop b2buat
 	- sudo systemctl status b2buat
 
+sudo systemctl restart b2buat
 SAO LƯU
 	- Xoá bản sao lưu hiện có ở /home/b2buat/backup
 	  rm /home/b2buat/backup/*

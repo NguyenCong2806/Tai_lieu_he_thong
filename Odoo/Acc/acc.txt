@@ -1,5 +1,6 @@
 - IP: 45.117.81.205
 - SSH Port: 22
+
 - OS account: odopilot / 7V17]OUSL$c7r'M#fqb>A4[&'^3F&#^p
  
 - PostgreSQL account: odopilot / j0#M8lsEGlejYsoc
@@ -10,3 +11,9 @@
 - Pilot Logs: /var/log/odopilot/
  
 - UAT Code: /opt/odouat/
+
+
+Để truy cập trang sampilot.eln.vn, em cần nhập user/name password thêm một lần nhé 
+(trước khi nhập user/pass của sambala)
+
+Tài khoản/mật khẩu:  aum /Sambala@2024
